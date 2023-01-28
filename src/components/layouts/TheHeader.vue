@@ -57,7 +57,7 @@ export default {
 header {
   width: 100%;
   height: 5rem;
-  background-color: #3d008d;
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,7 +65,7 @@ header {
 
 header a {
   text-decoration: none;
-  color: #f391e3;
+  color: white;
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border: 1px solid transparent;
@@ -74,7 +74,7 @@ header a {
 a:active,
 a:hover,
 a.router-link-active {
-  border: 1px solid #f391e3;
+  border: 1px solid wheat;
 }
 
 h1 {
@@ -111,5 +111,6 @@ header ul {
 
 li {
   margin: 0 0.5rem;
+  
 }
 </style>
